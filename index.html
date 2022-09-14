@@ -1,18 +1,279 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
     <title>Mohit Birla</title>
-</head>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head> 
 <body>
-    <nav>
-        <P>Home</P>
-        <p>About</p>
-        <p>Skills</p>
-        <p>Services</p>
-        <p>Contact</p>
-    </nav>
+
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu()"></div>
+         <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#servivces">Tech Skills</a></li>
+            <li><a href="#testimonial">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+         </ul>    
+    </header>
+
+   <section class="banner" id="home">
+     <div class="textBx">
+        <h2>Hello,I'm <br> <span>Mohit Birla</span> </h2>
+        <h3>A Java Back-End Developer</h3>
+        <a href="https://drive.google.com/file/d/18rsk7qZHjRreZ6HOVtLVs2vvtqrva3em/view?usp=sharing" class="btn">Resume</a>
+     </div>
+   </section>
+
+   <!-- About Me -->
+   <section class="about" id="about">
+     <div class="heading">
+        <h2>About Me</h2>
+     </div>
+     
+     <div class="content">
+        <div class="contentBx w50">
+            <h3>I'm a Java back-end Developer</h3>
+            <p id="w50r">I am a highly detail-oriented and organized Java backend 
+                developer with excellent technical and communication skills. Passionate
+                about coding and Self-motivated with a keen interest in building 
+                user-centric products. My non-tech roles and background have helped me 
+                to develop exceptional soft skills and become a great communicator. I 
+                bring passion, determination and loyalty to any role I undertake 
+                <br><br> I just completed an Intensive Full Stack Web Development 
+                Bootcamp from Masai School. with 1200+ hours of coding and 100+ hours
+                soft skills training. Looking forward to utilising my skills in a 
+                challenging work environment.
+            </p>
+        </div>
+        <div class="w50" id="profileimage">
+            <img src="images/mohitphoto.JPG" alt="Profile photo" class="leftkarna" >
+        </div>
+     </div>
+   </section>
+ 
+     <!-- Services section -->
+    <section class="services" id="servivces">
+        <div class="heading white" id="servicesHeadingColor">
+            <h2>Tech Stack</h2>
+            <p>My tech skills but i am on keep learning want to know more technology</p>
+         </div>
+         <div class="content">
+            <!-- box-1 -->
+            <div class="servicesBx">
+                <img src="https://preview.redd.it/myewf7wm51i61.png?auto=webp&s=3f1d013d4b89ac098cf880a38152dba74e326710" alt="">
+                <h2>Java</h2>
+                <p></p>
+            </div>
+            <!-- box-2 -->
+            <div class="servicesBx">
+                <img src="https://cdn3d.iconscout.com/3d/free/thumb/java-script-5645832-4695690.png" alt="">
+                <h2>Javascript</h2>
+                <p></p>
+            </div>
+            <!-- box-3 -->
+            <div class="servicesBx">
+                <img src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png" alt="">
+                <h2>My SQL</h2>
+                <p></p>
+            </div>
+            <!-- box-4 -->
+            <div class="servicesBx">
+                <img src="https://insource.io/images/posts/spring-boot.png" alt="">
+                <h2>Spring Boot</h2>
+                <p></p>
+            </div>
+            <!-- box-5 -->
+            <div class="servicesBx">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732212.png?w=360" alt="">
+                <h2>HTML</h2>
+                <p></p>
+            </div>
+            <!-- box-6 -->
+            <div class="servicesBx">
+                <img src="https://cdn1.iconfinder.com/data/icons/social-media-logos-7/64/css-3-512.png" alt="">
+                <h2>CSS</h2>
+                <p></p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="https://dwglogo.com/wp-content/uploads/2017/12/1100px_Hibernate_logo_01.png" alt="">
+                <h2>Hibernate</h2>
+                <p></p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png" alt="">
+                <h2>Git Hub</h2>
+                <p></p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="https://cdn.programiz.com/sites/tutorial2program/files/stack-of-plates_0.png" alt="">
+                <h2>DSA</h2>
+                <p></p>
+            </div>
+
+            <div class="servicesBx">
+                <img src="images/vslogo.png" alt="">
+                <h2>VS code</h2>
+                <p></p>
+            </div>
+         </div>
+    </section>
+
+     
+    
+    <!-- testmonial -->
+    <section class="testimonial" id="testimonial">
+        <div class="heading">
+            <h2>Projects</h2>
+            <p></p>
+         </div>
+         <!-- project - 1 -->
+         <div class="content">
+            <div class="testimonialBx">
+                <img src="images/imgproject.PNG" alt="" class="projectimg">
+                <p>Clone of an E-commerce website 1mg.com , which sells Healthcare & Medicine products. <br> 
+                    Collaborative Project accomplished with a team of 6 developers in 6 days. <br>
+                    Teach Stack : HTML | CSS | JavaScript |.
+                </p>
+                <h3>Deploy Link<br><a href="https://fabulous-sorbet-67ec69.netlify.app/"><span class="btn">View</span></a></h3>
+            </div>
+        </div>
+
+         <!-- Project 2 -->
+        <div class="content">
+            <div class="testimonialBx">
+                <img src="images/project2.PNG" alt="" class="projectimg">
+                <p>Clone of an E-commerce website ideakart.com , which is sells Novels and Books.. <br> 
+                    A collaborative project accomplished with a team 5 developers in one weak. <br>
+                    Teach Stack : HTML | CSS | JavaScript |.
+                </p>
+                <h3>Deploy Link<br><a href="https://musical-chaja-ae96fd.netlify.app/"><span class="btn">View</span></a></h3>
+            </div>
+        </div>
+            <!-- <div class="testimonialBx">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniaipsum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit Veniaipsum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit Veniaipsum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Veniaipsum.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.Veniaipsum.
+                </p>
+                <h3>Someone Famous<br><span>Creative Designer</span></h3>
+            </div> -->
+         
+    </section>
+
+    
+    <!-- Contant section -->
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p></p>
+         </div>
+         <div class="content">
+            <div class="contactInfo">
+                <h3>Direct Contact</h3>
+                <div class="contactInfoBx"> 
+                    <!-- box - 1 
+                   <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-map-marker"></i>
+                    </div>
+                   <div class="text">
+                     <h3>Address</h3>
+                     <p>Indore , Madhya Pradesh</p>
+                     
+                   </div>
+                   </div> -->
+                   <!-- box-2 -->
+                   <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-phone"></i>
+                    </div>
+                   <div class="text">
+                    <a href="callto:6267245120">
+                     <h3>Phone</h3>
+                     <p>6267245120</p> 
+                     </a>                     
+                   </div>
+                   </div>
+                   <!-- box-3 -->
+                   <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-envelope-o"></i>
+                    </div>
+                   <div class="text">
+                    <a href="mailto:mr.mohitbirla4920@gmail.com">
+                     <h3>Email</h3>
+                     <p>mr.mohitbirla4920@gmail.com</p>  
+                     </a>                   
+                    </div>
+                        <!--  box - 4-->
+                   </div>
+                   <div class="box">
+                    <div class="icon">
+                        <i class="fa fa-linkedin"></i>
+                    </div>
+                   <div class="text">
+                    <a href="https://www.linkedin.com/in/mohit-birla-b196bb233/">
+                     <h3>Linked in</h3>
+                     <p>Follow me on Linked-in</p>  
+                     </a>                   
+                   </div>
+              <!-- Box - 5 -->
+                </div>
+                <div class="box">
+                 <div class="icon">
+                     <i class="fa fa-instagram"></i>
+                 </div>
+                <div class="text">
+                 <a href="https://www.instagram.com/mohit_birla18/">
+                  <h3>Instagram</h3>
+                  <p>Contact me on Instagram</p>  
+                  </a>                   
+                </div>
+                
+                   </div>
+                </div>
+            </div>
+
+            <div class="formbx">
+                <form>
+                    <h3>Massage Me</h3>
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email-Id">
+                    <textarea placeholder="Enter Your Massage"></textarea>
+                    <input type="submit" value="Send" >
+                </form>
+            </div>
+         </div>
+    </section>
+
+
+    <div class="copyright">
+        <p>Created by Mohit Birla</p>
+    </div>
+
+
+   <script type="text/javascript">
+
+    window.addEventListener('scroll',function () {
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY > 0);
+    });
+
+    function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menu.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+    }
+   </script>
 </body>
 </html>
