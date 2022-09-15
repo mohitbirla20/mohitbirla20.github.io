@@ -188,7 +188,7 @@ section .title::after {
 /* https://images.pexels.com/photos/168766/pexels-photo-168766.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2 */
 .home {
   display: flex;
-  background: url("https://images.pexels.com/photos/633409/pexels-photo-633409.jpeg?cs=srgb&dl=pexels-daniel-putzer-633409.jpg&fm=jpg") no-repeat center;
+  background: url("https://wallpaperaccess.com/full/383133.jpg") no-repeat center;
   background-color: #111;
   height: 100vh;
   color: #fff;
