@@ -327,7 +327,7 @@ background-size: 10px 10px;
 .services .title::after,
 .project .title::after {
   background: WHITE;
-  content: "what i provide";
+  content: "what i done";
 }
 .services .serv-content .card {
   width: calc(33% - 20px);
@@ -416,7 +416,7 @@ background-size: 10px 10px;
   height: 80px;
 }
 .skills .title::after {
-  content: "what i know";
+  content: "See my skills";
 }
 
 /* skills right column */
@@ -605,6 +605,31 @@ background-size: 10px 10px;
 .skills-images {
   width: 120px;
   height: 120px;
+}
+
+
+
+
+/* calander */
+.calendarDiv{
+  /* border: 10px solid red; */
+  text-align: center;
+  padding-bottom: 4rem;
+
+}
+.calendarDiv h1{
+  font-size: 5rem;
+  padding: 2rem;
+}
+
+.calendar{
+  width: 85%;
+  margin: auto;
+  background-color: #F7F7F7;
+  border: 1px solid #2B313D;
+  padding: 4rem;
+  border: none;
+  
 }
 
 /* contact section styling */
