@@ -504,7 +504,7 @@ background-size: 10px 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   padding: 25px 35px;
   text-align: center;
-  overflow: hidden;
+  overflow: visible;
   transition: all 0.3s ease;
 }
 .project .carousel .card:hover {
@@ -614,12 +614,12 @@ background-size: 10px 10px;
 .calendarDiv{
   /* border: 10px solid red; */
   text-align: center;
-  padding-bottom: 4rem;
+  padding-bottom: 2rem;
 
 }
 .calendarDiv h1{
-  font-size: 5rem;
-  padding: 2rem;
+  font-size: 3rem;
+  padding: 1rem;
 }
 
 .calendar{
